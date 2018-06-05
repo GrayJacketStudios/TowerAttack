@@ -30,6 +30,7 @@ _sections_unfolded = [ "Cell" ]
 
 [node name="Test" parent="." index="1" instance=ExtResource( 2 )]
 
-position = Vector2( 544, 256 )
+position = Vector2( 32, 512 )
+_sections_unfolded = [ "Offset", "Region", "Transform", "Z Index" ]
 
 
