@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=4 format=2]
+[gd_resource type="TileSet" load_steps=5 format=2]
 
 [ext_resource path="res://images/grass.png" type="Texture" id=1]
 [ext_resource path="res://images/soil.png" type="Texture" id=2]
@@ -7,6 +7,11 @@
 
 custom_solver_bias = 0.0
 points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32, 0, 0 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( 32, 0, 32, 32, 0, 32, 0, 0 )
 
 [resource]
 
@@ -32,5 +37,10 @@ points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32, 0, 0 )
 1/is_autotile = false
 1/occluder_offset = Vector2( 0, 0 )
 1/navigation_offset = Vector2( 0, 0 )
-1/shapes = [  ]
+1/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 
