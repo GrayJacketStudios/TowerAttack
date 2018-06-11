@@ -2,7 +2,7 @@
 
 [ext_resource path="res://tilesets/ground.tres" type="TileSet" id=1]
 
-[node name="Mapa" type="Node2D" index="0"]
+[node name="Mapa" type="Node2D"]
 
 [node name="piso" type="Node2D" parent="." index="0"]
 
